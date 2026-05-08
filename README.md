@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://t.me/hmjim">
-    <img src="https://img.shields.io/badge/Telegram-%2B7_953_9122539-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram hmjim">
+    <img src="https://img.shields.io/badge/Telegram-hmjim-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram hmjim">
   </a>
   <a href="mailto:fhmjim@gmail.com">
     <img src="https://img.shields.io/badge/Email-fhmjim%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email hmjim">
@@ -56,19 +56,5 @@
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
   <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
 </p>
-
----
-
-### ▍ Experience
-
-**Tech Lead @ Inluck** *(2023 - Present)*
-- Managing the technical stack for 20+ production web projects handling 50TB+ of peak traffic.
-- Developing robust microservices, layered security defenses against DDoS, and internal AI tools.
-
-**Senior Software Engineer @ Synder** *(2021 - 2023)*
-- Engineered reliable B2B financial pipelines (Shopify, Stripe, QuickBooks) with strict idempotency and zero data loss.
-
-**Software Engineer @ Centreville Tech & Advanced Tech** *(2017 - 2021)*
-- Delivered highly optimized logistic and e-commerce platforms, processing catalogs of over 200k+ products via custom Elasticsearch implementations.
 
 <!-- SEO Keywords: PHP, Symfony, Go, Python, PostgreSQL, ClickHouse, Kafka, AWS, Kubernetes, Microservices, System Architecture, High Load -->
