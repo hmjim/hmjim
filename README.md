@@ -17,26 +17,7 @@
   </a>
 </p>
 
-<br/>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" align="center">
-      <h3>🚀 16+ Years</h3>
-      <p>Production Experience</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🌍 50TB+</h3>
-      <p>Peak Traffic Handled</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🛡️ 99.99%</h3>
-      <p>Uptime Focus</p>
-    </td>
-  </tr>
-</table>
-
-<br/>
 
 ### 👨‍💻 About Me
 
