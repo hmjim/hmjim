@@ -80,9 +80,7 @@ If it needs to handle high load, guarantee data delivery without duplication, an
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hmjim&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hmjim&bg_color=0D1117&color=70a5fd&line=70a5fd&point=FFFFFF&hide_border=true" alt="Activity Graph" width="100%" />
-</p>
+
 
 <br>
 
