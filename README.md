@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=hmjim&fontSize=70&animation=fadeIn&fontAlignY=38" width="100%" />
-</div>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
