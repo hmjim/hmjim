@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 148" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 124" width="100%">
   <defs>
     <linearGradient id="topAccent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
@@ -11,8 +11,8 @@
     </linearGradient>
     <style>
       .bg { fill: url(#bgGrad); stroke: #21262d; stroke-width: 1px; }
-      .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #f0f6fc; letter-spacing: -0.3px; }
-      .role { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; fill: #8b949e; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; fill: #f0f6fc; letter-spacing: -0.2px; }
+      .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #8b949e; }
       .badge { fill: #161b22; stroke: #30363d; stroke-width: 1px; }
       .badge-text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #c9d1d9; letter-spacing: 0.4px; }
       .meta-label { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; fill: #6e7681; }
@@ -20,27 +20,23 @@
     </style>
   </defs>
 
-  <rect class="bg" x="0.5" y="0.5" width="859" height="147" rx="10" />
+  <rect class="bg" x="0.5" y="0.5" width="859" height="123" rx="10" />
   <line x1="12" y1="1" x2="848" y2="1" stroke="url(#topAccent)" stroke-width="2" />
 
-  <!-- Left Column: Identity -->
-  <text x="28" y="44" class="name">Maxim Alekhin</text>
-  <text x="28" y="68" class="role">Principal AI, Blockchain (EVM) &amp; High-Load Systems Architect</text>
+  <!-- Left Column: Role -->
+  <text x="28" y="38" class="title">Principal AI, Blockchain (EVM) &amp; High-Load Systems Architect</text>
+  <text x="28" y="60" class="sub">Autonomous Multi-Agent Systems &bull; Low-Latency Inference &bull; On-Chain Core &bull; Distributed Backends</text>
 
-  <!-- Right Column: Status & Direct Contact -->
-  <rect class="badge" x="624" y="24" width="208" height="26" rx="13" />
-  <circle cx="640" cy="37" r="3.5" fill="#3fb950" />
-  <text x="652" y="41" class="badge-text" fill="#e6edf3">PRODUCTION ARCHITECTURE</text>
+  <!-- Right Column: Contact -->
+  <text x="640" y="36" class="meta-label">TG    :</text>
+  <text x="692" y="36" class="meta-val">@hmjim</text>
+  <text x="640" y="56" class="meta-label">EMAIL :</text>
+  <text x="692" y="56" class="meta-val">fhmjim@gmail.com</text>
 
-  <text x="626" y="72" class="meta-label">TG    :</text>
-  <text x="680" y="72" class="meta-val">@hmjim</text>
-  <text x="626" y="90" class="meta-label">EMAIL :</text>
-  <text x="680" y="90" class="meta-val">fhmjim@gmail.com</text>
-
-  <line x1="28" y1="94" x2="590" y2="94" stroke="#21262d" stroke-width="1" />
+  <line x1="28" y1="74" x2="832" y2="74" stroke="#21262d" stroke-width="1" />
 
   <!-- Bottom Key Metrics Pills -->
-  <g transform="translate(28, 106)">
+  <g transform="translate(28, 86)">
     <rect class="badge" x="0" y="0" width="154" height="24" rx="5" />
     <text x="12" y="16" class="badge-text">16+ YRS IN PRODUCTION</text>
 
