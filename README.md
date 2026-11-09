@@ -1,107 +1,150 @@
+<div align="center">
+
+<!-- Typing SVG Headline -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1200&color=60A5FA&center=true&vCenter=true&width=750&lines=Lead+AI+Engineer+%26+AI+Systems+Architect;Autonomous+Multi-Agent+Orchestration+(LangGraph+%2B+MCP);Sub-200ms+Real-Time+Multimodal+AI+(Voice+%2B+Vision);High-Throughput+Inference+%26+Advanced+RAG+(vLLM+%2B+Qdrant)" alt="Typing Headline" />
+</a>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&lines=Senior+Backend+Engineer;System+Architecture+Lead;High-Load+Specialist" alt="Typing SVG" />
-  </a>
+  <b>15+ Years Distributed Systems Foundation &bull; Production LLM Systems &bull; Autonomous Agents</b>
 </p>
 
+<!-- Sleek Contact & Status Badges -->
 <p align="center">
   <a href="https://t.me/hmjim">
-    <img src="https://img.shields.io/badge/Telegram-hmjim-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram hmjim">
+    <img src="https://img.shields.io/badge/Telegram-@hmjim-0088cc?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
+  &nbsp;
   <a href="mailto:fhmjim@gmail.com">
-    <img src="https://img.shields.io/badge/Email-fhmjim%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email hmjim">
+    <img src="https://img.shields.io/badge/Email-fhmjim@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/hmjim">
+    <img src="https://img.shields.io/badge/Status-Open_for_AI_Roles-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   </a>
 </p>
 
 ---
 
-<p align="center">
-  <i>Building resilient, high-load systems where uptime and data integrity are mission-critical. <br>16 years of production experience focusing on system architecture, database optimization, cloud DevOps, and platform security.</i>
-</p>
+</div>
+
+### ⚡ Executive Overview
+
+Senior / Lead AI Systems Architect specializing in **autonomous multi-agent frameworks, low-latency multimodal streaming, enterprise hybrid RAG, and high-throughput inference optimization**. 
+
+Unlike prototype-only prompt engineers, I bridge frontier AI capabilities with **15+ years of battle-tested distributed systems engineering** (FastAPI, Go, Node.js, Redis, Kafka, Kubernetes, vLLM). I build AI systems designed for strict reliability, high concurrency, sub-second latencies, and optimized token economics.
 
 ---
 
-### ▍ Stack & Infrastructure
+### 🚀 Production Impact & Highlights
 
-<p>
-  <b>Backend & Core:</b><br>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Autonomous Multi-Agent Orchestration</h4>
+      <ul>
+        <li>Stateful agent execution graphs built with <b>LangGraph</b> and custom <b>ReAct loops</b>.</li>
+        <li>Full adoption of <b>Model Context Protocol (MCP)</b> for standardized tool-calling across databases, GitHub, Jira, and internal APIs.</li>
+        <li>Automated self-reflection and error recovery achieving <b>99.4% tool-call execution precision</b>.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧠 Advanced RAG & Vector Retrieval</h4>
+      <ul>
+        <li>Hybrid retrieval pipelines combining dense embeddings (<b>Qdrant</b>) with sparse lexical search (<b>BM25</b>).</li>
+        <li>Two-stage re-ranking using cross-encoders (<b>Cohere / BGE-Reranker</b>), boosting <code>Hit@3</code> precision from <b>68% to 94.2%</b>.</li>
+        <li>Hierarchical parent-child chunking & context caching cutting p95 query latency to <b>&lt;450ms</b>.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎙️ Real-Time Multimodal Streaming</h4>
+      <ul>
+        <li>End-to-end voice and vision pipelines with <b>&lt;200ms latency</b> using <b>Silero VAD</b> + streaming <b>faster-whisper</b>.</li>
+        <li>Direct screenshot multimodal reasoning via Gemini & Claude APIs without brittle OCR bottlenecks.</li>
+        <li>Bi-directional streaming architectures built on <b>WebSockets</b> and <b>Server-Sent Events (SSE)</b>.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📉 Token Economics & Inference Serving</h4>
+      <ul>
+        <li>Intelligent model routing: local quantized models (<b>vLLM</b>, Llama 3.1 70B AWQ) for high-frequency tasks, frontier models (Claude 3.5 Sonnet / GPT-4o) for complex multi-step reasoning.</li>
+        <li>Redis semantic caching layer cutting token consumption by <b>58%</b> ($14,000+/mo saved).</li>
+        <li>Automated evaluation pipelines with <b>LangSmith</b> and <b>RAGAS</b> in CI/CD to prevent hallucination drift.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <b>Frameworks & APIs:</b><br>
-  <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-  <img src="https://img.shields.io/badge/Yii2-40B3DB?style=for-the-badge&logo=yii&logoColor=white">
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white">
-  <img src="https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=json&logoColor=white">
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
-  <img src="https://img.shields.io/badge/OAuth2-3C3C3C?style=for-the-badge&logo=auth0&logoColor=white">
-  <img src="https://img.shields.io/badge/PHPUnit-366488?style=for-the-badge&logo=php&logoColor=white">
-</p>
+---
 
-<p>
-  <b>CMS:</b><br>
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white">
-  <img src="https://img.shields.io/badge/Drupal-0678BE?style=for-the-badge&logo=drupal&logoColor=white">
-  <img src="https://img.shields.io/badge/Joomla-5091CD?style=for-the-badge&logo=joomla&logoColor=white">
-</p>
+### 🛠️ Featured Architectures & Projects
 
-<p>
-  <b>Databases & Search:</b><br>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
-  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black">
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
-</p>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  OpenCluely — Real-Time Multimodal AI Desktop Copilot                  │
+└────────────────────────────────────────────────────────────────────────┘
+  ▶ Invisible stealth desktop assistant with real-time voice + vision reasoning
+  ▶ Sub-200ms local Voice Activity Detection (Silero) + faster-whisper STT
+  ▶ Direct multimodal screen capture analysis without intermediate OCR latency
+  ▶ Multi-turn session memory with dynamic context pruning and rolling summarization
+  • Stack: Python, Node.js, Electron, Gemini / Claude API, WebSockets, C++ Bindings
+```
 
-<p>
-  <b>Message Brokers & Async:</b><br>
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white">
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white">
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white">
-</p>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  OpenClaw — Enterprise Autonomous Multi-Agent Framework                │
+└────────────────────────────────────────────────────────────────────────┘
+  ▶ Multi-agent orchestration engine for engineering & DevOps task automation
+  ▶ LangGraph state machines with MCP (Model Context Protocol) tool integrations
+  ▶ Autonomous code refactoring, PR triage, log anomaly detection, and CI remediation
+  ▶ Self-correcting feedback loops with structured output schema enforcement
+  • Stack: Python (FastAPI), LangGraph, MCP, Redis, Docker, GitHub API, PostgreSQL
+```
 
-<p>
-  <b>DevOps, Cloud & Monitoring:</b><br>
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-  <img src="https://img.shields.io/badge/CloudFront-232F3E?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white">
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-</p>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  High-Throughput Vector Gateway & Hybrid RAG Engine                    │
+└────────────────────────────────────────────────────────────────────────┘
+  ▶ Enterprise knowledge retrieval layer across 20+ distributed microservices
+  ▶ Dual-path Qdrant vector search + BM25 keyword matching with cross-encoder reranking
+  ▶ Dynamic semantic caching in Redis with sub-15ms hit response time
+  • Stack: Qdrant, pgvector, Python, FastAPI, Cohere Rerank, ClickHouse, Docker
+```
 
-<p>
-  <b>Frontend:</b><br>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Angular.js-DD0031?style=for-the-badge&logo=angularjs&logoColor=white">
-  <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white">
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black">
-  <img src="https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white">
-</p>
+---
 
-<p>
-  <b>Web3 & Blockchain:</b><br>
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white">
-  <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white">
-  <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white">
-  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white">
-</p>
+### 💻 Core Tech Stack
 
-<!-- SEO Keywords: PHP, Symfony, Laravel, Yii2, Go, Golang, Python, Node.js, TypeScript, PostgreSQL, MySQL, ClickHouse, MongoDB, Elasticsearch, Redis, Kafka, RabbitMQ, AWS, Kubernetes, Docker, Microservices, System Architecture, High Load, Solidity, Web3, React, Vue.js, Next.js, WordPress, Drupal, GraphQL, REST API, OAuth2, CI/CD -->
+<div align="center">
+
+| Domain | Technologies & Frameworks |
+|---|---|
+| **AI & Multi-Agent** | `LangGraph` &bull; `Model Context Protocol (MCP)` &bull; `LangChain` &bull; `LlamaIndex` &bull; `DSPy` &bull; `CrewAI` &bull; `AutoGen` |
+| **Inference & Serving** | `vLLM` &bull; `Ollama` &bull; `TensorRT-LLM` &bull; `Hugging Face Transformers` &bull; `LoRA / QLoRA` &bull; `AWQ / GGUF` |
+| **Vector DB & Search** | `Qdrant` &bull; `pgvector` &bull; `Milvus` &bull; `Pinecone` &bull; `Cohere Rerank` &bull; `BGE Embeddings` |
+| **Multimodal & Voice** | `faster-whisper` &bull; `Silero VAD` &bull; `ElevenLabs` &bull; `Gemini Flash / Pro` &bull; `Claude 3.5 Sonnet` &bull; `GPT-4o` |
+| **Evals & Guardrails** | `LangSmith` &bull; `Arize Phoenix` &bull; `RAGAS` &bull; `DeepEval` &bull; `NeMo Guardrails` &bull; `Pydantic v2` |
+| **Core Systems & Backend**| `Python (FastAPI, Asyncio)` &bull; `Go (Golang)` &bull; `TypeScript / Node.js` &bull; `WebSockets / SSE` |
+| **Data & Infrastructure**| `PostgreSQL` &bull; `ClickHouse` &bull; `Redis` &bull; `Apache Kafka` &bull; `Docker` &bull; `Kubernetes` &bull; `AWS` |
+
+</div>
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=hmjim&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=38BDF8&text_color=94A3B8" height="150" alt="GitHub Stats" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hmjim&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=94A3B8" height="150" alt="Top Languages" />
+
+</div>
+
+---
+
+<div align="center">
+  <sub>Engineered by <b>Maxim Alekhin</b> &bull; Available for Senior/Lead AI Engineering roles & High-Impact Consulting &bull; <a href="https://t.me/hmjim">Get in touch</a></sub>
+</div>
