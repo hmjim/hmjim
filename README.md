@@ -1,45 +1,125 @@
-### Maxim Alekhin
+<div align="center">
 
-**Systems Architect | AI & Autonomous Agents | EVM & Blockchain Infrastructure | High-Load Backend**
+# Maxim Alekhin
+### Principal AI, Blockchain & High-Load Systems Architect
 
-Telegram: [@hmjim](https://t.me/hmjim) · Email: [fhmjim@gmail.com](mailto:fhmjim@gmail.com)
+<p align="center">
+  <a href="https://t.me/hmjim">
+    <img src="https://img.shields.io/badge/Telegram-@hmjim-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  &nbsp;
+  <a href="mailto:fhmjim@gmail.com">
+    <img src="https://img.shields.io/badge/Email-fhmjim%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
----
+<p align="center">
+  <b>16+ years in production engineering &bull; 50TB/day high-load infrastructure &bull; Production LLM & Agentic systems &bull; EVM & On-Chain core</b>
+</p>
 
-Nearly two decades in production software engineering. I build and maintain systems that fail expensively if designed poorly: high-throughput backends (50TB+ daily traffic), deterministic financial and on-chain execution pipelines, and production LLM/agent infrastructure.
-
-I don't build fragile prompt wrappers. I treat LLMs as non-deterministic, high-latency system components that require strict state machines, schema enforcement, hybrid retrieval, and hard cost/latency boundaries.
-
----
-
-### Core Engineering Domains
-
-#### 1. AI Engineering, Multi-Agent Systems & Local Inference
-* **Agentic Execution (`OpenClaw`):** Stateful multi-agent workflows (LangGraph, custom state machines) wired into internal infrastructure via Model Context Protocol (MCP). Instead of letting models blindly generate text, agents operate on AST trees, execute isolated sandboxed tests, read telemetry/logs, and run deterministic self-correction loops when tool calls fail or schemas drift.
-* **Real-Time Multimodal Systems (`OpenCluely`):** Low-latency desktop copilot combining local Voice Activity Detection (Silero VAD), streaming speech-to-text (`faster-whisper` over raw PCM chunks), and direct multimodal vision reasoning without slow OCR intermediates. Context window management via sliding-window pruning and background state summarization.
-* **Production RAG & Retrieval:** Dense vector embeddings alone fail on exact identifiers, stack traces, hashes, and part numbers. I build hybrid retrieval pipelines combining `Qdrant` / `pgvector` dense search with `BM25` lexical matching and cross-encoder reranking (`BGE-Reranker` / `Cohere`), backed by hierarchical parent-child chunking.
-* **Inference & Token Economics:** Self-hosted inference via `vLLM` and `Ollama` (quantized AWQ/GGUF weights, KV-cache tuning, continuous batching) for high-frequency internal workloads, combined with tiered routing to frontier models (Claude 3.5 Sonnet, GPT-4o, Gemini) and Redis semantic caching.
-
-#### 2. Blockchain, EVM Internals & Off-Chain Infrastructure
-* **Smart Contracts & EVM Mechanics:** Production Solidity development (`0.8.x`, Foundry, Hardhat, Slither). Deep focus on EVM storage layout (256-bit slot packing to minimize `SSTORE`/`SLOAD` gas costs), custom errors, assembly optimizations where justified, EIP-712 typed cryptographic signatures for gasless off-chain authentication, and ERC-721/ERC-1155/ERC-20 tokenomics and access control.
-* **Custom On-Chain Indexers & Reorg Handling:** Third-party indexers lag or drop events under network congestion. I write custom high-concurrency event indexers in Go directly against Ethereum and L2 (Arbitrum, Optimism, Polygon) JSON-RPC / WebSocket nodes (`eth_subscribe`, block header tracking, receipt batching). Built-in canonical chain verification by tracking `parentHash` pointers with automatic state rollback in PostgreSQL and ClickHouse during shallow chain reorganizations.
-* **Execution, Nonce Management & Security:** High-throughput transaction relayers with distributed Redis locks for strict sequential nonce management, dynamic EIP-1559 fee estimation (`maxPriorityFeePerGas`), flashbots/private RPC routing to mitigate MEV front-running, and defense against reentrancy and signature replay attacks.
-
-#### 3. High-Load Distributed Systems & Data Intensive Applications
-* **Throughput & Concurrency:** Services in Go, Python (`FastAPI`, `asyncio`), Node.js/TypeScript, and PHP (Symfony/native). Currently maintaining a network of 20+ production platforms pushing up to 50TB of daily traffic.
-* **Database Internals:** Heavy PostgreSQL optimization (`EXPLAIN (ANALYZE, BUFFERS)`, declarative partitioning, partial/GIN indexes, connection pooling, vacuum tuning). ClickHouse (`MergeTree` family, materialized views) for sub-second analytical queries over hundreds of millions of clickstream and on-chain events.
-* **Event-Driven Reliability:** Kafka and RabbitMQ pipelines engineered for strict idempotency (idempotency keys, transactional outbox, atomic upserts) in financial reconciliation (Stripe, Shopify, QuickBooks) and on-chain state synchronization where duplicate or dropped messages mean direct financial loss.
-* **Infrastructure & L7 Defense:** Bare-metal and AWS (EC2, EKS, RDS, S3), Docker, Kubernetes, Nginx tuning, Prometheus/Grafana observability, custom WAF rules, and L7 DDoS/bot mitigation.
+</div>
 
 ---
 
-### Stack
+### What I Build
 
-```text
-Languages      : Python, Go, Solidity, TypeScript / Node.js, PHP, C / C++, SQL
-AI / LLM       : LangGraph, MCP, vLLM, Ollama, Qdrant, pgvector, BGE/Cohere Rerank, faster-whisper, Silero VAD, DSPy, LoRA/QLoRA
-Blockchain     : EVM (Ethereum, Arbitrum, Base), Solidity, Foundry, Hardhat, Slither, EIP-712, ERC-4337, Viem, Ethers.js, JSON-RPC
-Data & Storage : PostgreSQL, ClickHouse, Redis, Elasticsearch, MongoDB, MySQL
-Messaging      : Apache Kafka, RabbitMQ, WebSockets, gRPC, SSE
-Infrastructure : Linux, Docker, Kubernetes, AWS, Nginx, GitHub Actions, Prometheus, Grafana
-```
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <b>AI & LLM Infrastructure</b>
+      <ul>
+        <li>Autonomous multi-agent systems (<b>LangGraph</b>, <b>MCP</b>, AST code tooling, sandboxed execution).</li>
+        <li>Real-time multimodal pipelines: <b>Silero VAD</b>, <b>faster-whisper</b> PCM streaming (&lt;200ms), Vision LLMs.</li>
+        <li>Production Hybrid RAG: <b>Qdrant</b> / <b>pgvector</b> + <b>BM25</b> + cross-encoder reranking (<b>BGE</b>, <b>Cohere</b>).</li>
+        <li>Self-hosted inference: <b>vLLM</b>, <b>Ollama</b>, AWQ/GGUF quantization, LoRA/QLoRA, Redis semantic caching.</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <b>Blockchain & EVM Core</b>
+      <ul>
+        <li>Smart contracts in <b>Solidity</b> (<b>Foundry</b>, <b>Hardhat</b>, <b>Slither</b>): ERC-20/721/1155, ERC-4337, gas slot packing, <b>EIP-712</b> auth.</li>
+        <li>Custom high-throughput EVM indexers in <b>Go</b> over raw JSON-RPC / WebSockets (<code>eth_subscribe</code>, trace parsing) with automatic chain reorg rollback.</li>
+        <li>High-concurrency tx relayers, distributed Redis nonce locks, EIP-1559 fee engines, private RPC / Flashbots routing.</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <b>High-Load & Distributed Systems</b>
+      <ul>
+        <li>Architect & sole tech lead across 20+ production platforms handling <b>50TB+ daily traffic</b>.</li>
+        <li>Database internals: <b>PostgreSQL</b> partitioning & query tuning, <b>ClickHouse</b> (MergeTree) sub-second analytics over 100M+ rows.</li>
+        <li>Zero-data-loss financial & event pipelines on <b>Kafka</b> and <b>RabbitMQ</b> with strict idempotency.</li>
+        <li>L7 DDoS mitigation, custom WAF, Kubernetes (EKS).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Selected Production Systems
+
+* **[OpenCluely](https://github.com/hmjim/OpenCluely) — Real-Time Multimodal AI Desktop Copilot**  
+  `Python` `Node.js` `Electron` `faster-whisper` `Silero VAD` `Gemini / Claude API` `WebSockets`  
+  Stealth low-latency desktop assistant. Streams local voice capture via Silero VAD and raw PCM chunks into faster-whisper (<200ms latency), pairs with direct screen-region vision reasoning and sliding-window session memory.
+
+* **OpenClaw — Enterprise Multi-Agent Engineering Platform**  
+  `Python` `FastAPI` `LangGraph` `MCP` `Qdrant` `vLLM` `AST` `Docker`  
+  Internal autonomous agent platform for code refactoring, PR verification, log anomaly triage, and incident remediation. Uses MCP servers for database/Git/telemetry access, hybrid RAG (Qdrant + BM25 + BGE reranker), and tiered routing between self-hosted vLLM (`Llama-3.1-70B-AWQ`) and frontier APIs.
+
+* **Go EVM Indexer & On-Chain Telemetry Engine**  
+  `Go` `Solidity` `Foundry` `EIP-712` `ClickHouse` `PostgreSQL` `Redis` `JSON-RPC`  
+  Custom multi-chain event indexer (Ethereum, Arbitrum, Base) ingesting real-time state changes over WebSockets into ClickHouse and PostgreSQL with `parentHash` canonical chain tracking and automated reorg rollback, paired with EIP-712 gasless B2B authentication contracts.
+
+---
+
+### Tech Stack
+
+<p>
+  <b>AI, LLM & Inference:</b><br>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/vLLM-1E293B?style=for-the-badge&logo=ai&logoColor=38BDF8">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white">
+  <img src="https://img.shields.io/badge/MCP_Protocol-0F172A?style=for-the-badge&logo=anthropic&logoColor=white">
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white">
+  <img src="https://img.shields.io/badge/pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black">
+  <img src="https://img.shields.io/badge/OpenAI_/_Claude_/_Gemini-111827?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/Faster_Whisper-059669?style=for-the-badge&logo=soundcloud&logoColor=white">
+</p>
+
+<p>
+  <b>Blockchain & Web3:</b><br>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white">
+  <img src="https://img.shields.io/badge/EVM_Internals-1E1E2E?style=for-the-badge&logo=ethereum&logoColor=white">
+  <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=rust&logoColor=white">
+  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black">
+  <img src="https://img.shields.io/badge/Ethers.js_/_Viem-2535A0?style=for-the-badge&logo=ethereum&logoColor=white">
+  <img src="https://img.shields.io/badge/EIP--712_/_ERC--4337-3C3C3C?style=for-the-badge&logo=letsencrypt&logoColor=white">
+  <img src="https://img.shields.io/badge/JSON--RPC_/_Geth-0F172A?style=for-the-badge&logo=go&logoColor=00ADD8">
+</p>
+
+<p>
+  <b>Core Languages & Backend:</b><br>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/PHP_/_Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white">
+  <img src="https://img.shields.io/badge/gRPC_/_WebSockets-244C5A?style=for-the-badge&logo=socketdotio&logoColor=white">
+</p>
+
+<p>
+  <b>Data, Queues & High-Load Infra:</b><br>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white">
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux_/_Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
+  <img src="https://img.shields.io/badge/Prometheus_/_Grafana-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
+</p>
