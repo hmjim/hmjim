@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="100%">
+  <defs>
+    <style>
+      .card { fill: #0d1117; stroke: #21262d; stroke-width: 1px; }
+      .header-num { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; }
+      .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; fill: #e6edf3; letter-spacing: 0.8px; }
+      .pill { fill: #161b22; stroke: #30363d; stroke-width: 1px; }
+      .pill-text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; fill: #c9d1d9; }
+    </style>
+  </defs>
+  <g transform="translate(0, 0)">
+    <rect class="card" x="0.5" y="0.5" width="421" height="181" rx="8" />
+    <line x1="16" y1="1" x2="88" y2="1" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="22" cy="24" r="3" fill="#38bdf8" />
+    <text x="32" y="28" class="header-num" fill="#38bdf8">01</text>
+    <text x="54" y="28" class="header-title">AI, LLM & INFERENCE SYSTEMS</text>
+    <line x1="16" y1="40" x2="406" y2="40" stroke="#21262d" stroke-width="1" />
+    <rect class="pill" x="16" y="52" width="123" height="24" rx="5" />
+    <text x="24" y="68" class="pill-text">Python / PyTorch</text>
+    <rect class="pill" x="145" y="52" width="42" height="24" rx="5" />
+    <text x="153" y="68" class="pill-text">vLLM</text>
+    <rect class="pill" x="193" y="52" width="56" height="24" rx="5" />
+    <text x="201" y="68" class="pill-text">Ollama</text>
+    <rect class="pill" x="255" y="52" width="76" height="24" rx="5" />
+    <text x="263" y="68" class="pill-text">LangGraph</text>
+    <rect class="pill" x="337" y="52" width="36" height="24" rx="5" />
+    <text x="345" y="68" class="pill-text">MCP</text>
+    <rect class="pill" x="16" y="83" width="56" height="24" rx="5" />
+    <text x="24" y="99" class="pill-text">Qdrant</text>
+    <rect class="pill" x="78" y="83" width="69" height="24" rx="5" />
+    <text x="86" y="99" class="pill-text">pgvector</text>
+    <rect class="pill" x="153" y="83" width="170" height="24" rx="5" />
+    <text x="161" y="99" class="pill-text">Hybrid RAG (BM25 + BGE)</text>
+    <rect class="pill" x="329" y="83" width="42" height="24" rx="5" />
+    <text x="337" y="99" class="pill-text">DSPy</text>
+    <rect class="pill" x="16" y="114" width="109" height="24" rx="5" />
+    <text x="24" y="130" class="pill-text">faster-whisper</text>
+    <rect class="pill" x="131" y="114" width="83" height="24" rx="5" />
+    <text x="139" y="130" class="pill-text">Silero VAD</text>
+    <rect class="pill" x="220" y="114" width="96" height="24" rx="5" />
+    <text x="228" y="130" class="pill-text">LoRA / QLoRA</text>
+    <rect class="pill" x="322" y="114" width="83" height="24" rx="5" />
+    <text x="330" y="130" class="pill-text">AWQ / GGUF</text>
+    <rect class="pill" x="16" y="145" width="203" height="24" rx="5" />
+    <text x="24" y="161" class="pill-text">Claude 3.5 / GPT-4o / Gemini</text>
+    <rect class="pill" x="225" y="145" width="89" height="24" rx="5" />
+    <text x="233" y="161" class="pill-text">Pydantic v2</text>
+    <rect class="pill" x="320" y="145" width="36" height="24" rx="5" />
+    <text x="328" y="161" class="pill-text">AST</text>
+  </g>
+  <g transform="translate(438, 0)">
+    <rect class="card" x="0.5" y="0.5" width="421" height="181" rx="8" />
+    <line x1="16" y1="1" x2="88" y2="1" stroke="#818cf8" stroke-width="2" />
+    <circle cx="22" cy="24" r="3" fill="#818cf8" />
+    <text x="32" y="28" class="header-num" fill="#818cf8">02</text>
+    <text x="54" y="28" class="header-title">BLOCKCHAIN & EVM INFRASTRUCTURE</text>
+    <line x1="16" y1="40" x2="406" y2="40" stroke="#21262d" stroke-width="1" />
+    <rect class="pill" x="16" y="52" width="109" height="24" rx="5" />
+    <text x="24" y="68" class="pill-text">Solidity 0.8.x</text>
+    <rect class="pill" x="131" y="52" width="103" height="24" rx="5" />
+    <text x="139" y="68" class="pill-text">EVM Internals</text>
+    <rect class="pill" x="240" y="52" width="62" height="24" rx="5" />
+    <text x="248" y="68" class="pill-text">Foundry</text>
+    <rect class="pill" x="308" y="52" width="62" height="24" rx="5" />
+    <text x="316" y="68" class="pill-text">Hardhat</text>
+    <rect class="pill" x="376" y="52" width="30" height="24" rx="5" />
+    <text x="384" y="68" class="pill-text">Slither</text>
+    <rect class="pill" x="16" y="83" width="150" height="24" rx="5" />
+    <text x="24" y="99" class="pill-text">Go JSON-RPC Indexers</text>
+    <rect class="pill" x="172" y="83" width="103" height="24" rx="5" />
+    <text x="180" y="99" class="pill-text">Geth / Erigon</text>
+    <rect class="pill" x="281" y="83" width="103" height="24" rx="5" />
+    <text x="289" y="99" class="pill-text">eth_subscribe</text>
+    <rect class="pill" x="16" y="114" width="196" height="24" rx="5" />
+    <text x="24" y="130" class="pill-text">Reorg Rollback (parentHash)</text>
+    <rect class="pill" x="218" y="114" width="96" height="24" rx="5" />
+    <text x="226" y="130" class="pill-text">EIP-712 Auth</text>
+    <rect class="pill" x="320" y="114" width="69" height="24" rx="5" />
+    <text x="328" y="130" class="pill-text">ERC-4337</text>
+    <rect class="pill" x="16" y="145" width="143" height="24" rx="5" />
+    <text x="24" y="161" class="pill-text">ERC-20 / 721 / 1155</text>
+    <rect class="pill" x="165" y="145" width="116" height="24" rx="5" />
+    <text x="173" y="161" class="pill-text">MEV / Flashbots</text>
+    <rect class="pill" x="287" y="145" width="123" height="24" rx="5" />
+    <text x="295" y="161" class="pill-text">Viem / Ethers.js</text>
+  </g>
+  <g transform="translate(0, 198)">
+    <rect class="card" x="0.5" y="0.5" width="421" height="181" rx="8" />
+    <line x1="16" y1="1" x2="88" y2="1" stroke="#34d399" stroke-width="2" />
+    <circle cx="22" cy="24" r="3" fill="#34d399" />
+    <text x="32" y="28" class="header-num" fill="#34d399">03</text>
+    <text x="54" y="28" class="header-title">CORE LANGUAGES & RUNTIME</text>
+    <line x1="16" y1="40" x2="406" y2="40" stroke="#21262d" stroke-width="1" />
+    <rect class="pill" x="16" y="52" width="89" height="24" rx="5" />
+    <text x="24" y="68" class="pill-text">Go (Golang)</text>
+    <rect class="pill" x="111" y="52" width="89" height="24" rx="5" />
+    <text x="119" y="68" class="pill-text">Python 3.12</text>
+    <rect class="pill" x="206" y="52" width="83" height="24" rx="5" />
+    <text x="214" y="68" class="pill-text">TypeScript</text>
+    <rect class="pill" x="295" y="52" width="62" height="24" rx="5" />
+    <text x="303" y="68" class="pill-text">Node.js</text>
+    <rect class="pill" x="363" y="52" width="36" height="24" rx="5" />
+    <text x="371" y="68" class="pill-text">SQL</text>
+    <rect class="pill" x="16" y="83" width="62" height="24" rx="5" />
+    <text x="24" y="99" class="pill-text">FastAPI</text>
+    <rect class="pill" x="84" y="83" width="62" height="24" rx="5" />
+    <text x="92" y="99" class="pill-text">Asyncio</text>
+    <rect class="pill" x="152" y="83" width="116" height="24" rx="5" />
+    <text x="160" y="99" class="pill-text">gRPC / Protobuf</text>
+    <rect class="pill" x="274" y="83" width="123" height="24" rx="5" />
+    <text x="282" y="99" class="pill-text">WebSockets / SSE</text>
+    <rect class="pill" x="16" y="114" width="116" height="24" rx="5" />
+    <text x="24" y="130" class="pill-text">PHP 8 / Symfony</text>
+    <rect class="pill" x="138" y="114" width="123" height="24" rx="5" />
+    <text x="146" y="130" class="pill-text">C / C++ Bindings</text>
+    <rect class="pill" x="267" y="114" width="69" height="24" rx="5" />
+    <text x="275" y="130" class="pill-text">Electron</text>
+    <rect class="pill" x="16" y="145" width="109" height="24" rx="5" />
+    <text x="24" y="161" class="pill-text">REST / GraphQL</text>
+    <rect class="pill" x="131" y="145" width="96" height="24" rx="5" />
+    <text x="139" y="161" class="pill-text">OAuth2 / JWT</text>
+    <rect class="pill" x="233" y="145" width="143" height="24" rx="5" />
+    <text x="241" y="161" class="pill-text">Linux Kernel Tuning</text>
+  </g>
+  <g transform="translate(438, 198)">
+    <rect class="card" x="0.5" y="0.5" width="421" height="181" rx="8" />
+    <line x1="16" y1="1" x2="88" y2="1" stroke="#f59e0b" stroke-width="2" />
+    <circle cx="22" cy="24" r="3" fill="#f59e0b" />
+    <text x="32" y="28" class="header-num" fill="#f59e0b">04</text>
+    <text x="54" y="28" class="header-title">DATA STORAGE, QUEUES & HIGH-LOAD</text>
+    <line x1="16" y1="40" x2="406" y2="40" stroke="#21262d" stroke-width="1" />
+    <rect class="pill" x="16" y="52" width="83" height="24" rx="5" />
+    <text x="24" y="68" class="pill-text">PostgreSQL</text>
+    <rect class="pill" x="105" y="52" width="163" height="24" rx="5" />
+    <text x="113" y="68" class="pill-text">ClickHouse (MergeTree)</text>
+    <rect class="pill" x="274" y="52" width="49" height="24" rx="5" />
+    <text x="282" y="68" class="pill-text">Redis</text>
+    <rect class="pill" x="329" y="52" width="77" height="24" rx="5" />
+    <text x="337" y="68" class="pill-text">Elasticsearch</text>
+    <rect class="pill" x="16" y="83" width="96" height="24" rx="5" />
+    <text x="24" y="99" class="pill-text">Apache Kafka</text>
+    <rect class="pill" x="118" y="83" width="69" height="24" rx="5" />
+    <text x="126" y="99" class="pill-text">RabbitMQ</text>
+    <rect class="pill" x="193" y="83" width="129" height="24" rx="5" />
+    <text x="201" y="99" class="pill-text">Distributed Locks</text>
+    <rect class="pill" x="328" y="83" width="78" height="24" rx="5" />
+    <text x="336" y="99" class="pill-text">Idempotency</text>
+    <rect class="pill" x="16" y="114" width="123" height="24" rx="5" />
+    <text x="24" y="130" class="pill-text">Kubernetes (EKS)</text>
+    <rect class="pill" x="145" y="114" width="56" height="24" rx="5" />
+    <text x="153" y="130" class="pill-text">Docker</text>
+    <rect class="pill" x="207" y="114" width="36" height="24" rx="5" />
+    <text x="215" y="130" class="pill-text">AWS</text>
+    <rect class="pill" x="249" y="114" width="150" height="24" rx="5" />
+    <text x="257" y="130" class="pill-text">GitHub Actions CI/CD</text>
+    <rect class="pill" x="16" y="145" width="49" height="24" rx="5" />
+    <text x="24" y="161" class="pill-text">Nginx</text>
+    <rect class="pill" x="71" y="145" width="150" height="24" rx="5" />
+    <text x="79" y="161" class="pill-text">Prometheus / Grafana</text>
+    <rect class="pill" x="227" y="145" width="176" height="24" rx="5" />
+    <text x="235" y="161" class="pill-text">L7 WAF / DDoS Mitigation</text>
+  </g>
+</svg>
