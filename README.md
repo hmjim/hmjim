@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Principal AI, Blockchain & High-Load Systems Architect" />
+  <img src="https://raw.githubusercontent.com/hmjim/hmjim/main/assets/hero.svg?v=3" width="100%" alt="Principal AI, Blockchain & High-Load Systems Architect" />
 </p>
 
 <table width="100%">
